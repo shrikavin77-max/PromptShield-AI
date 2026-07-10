@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    width:360px;
+    background:#f5f7fb;
+    color:#222;
+}
+
+.container{
+    padding:18px;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.header h1{
+    font-size:22px;
+    color:#2563eb;
+}
+
+.header p{
+    color:#666;
+    margin-top:5px;
+    font-size:13px;
+}
+
+.score-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+    margin-bottom:18px;
+}
+
+.score-card h2{
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+.score{
+    font-size:42px;
+    font-weight:bold;
+    color:#16a34a;
+}
+
+#riskLevel{
+    margin-top:10px;
+    font-weight:bold;
+    color:#16a34a;
+}
+
+.section{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+    margin-bottom:18px;
+}
+
+.section h3{
+    margin-bottom:10px;
+}
+
+#findings{
+    padding-left:18px;
+}
+
+#findings li{
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+button{
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.25s;
+}
+
+#scanButton{
+    background:#2563eb;
+    color:white;
+}
+
+#scanButton:hover{
+    background:#1d4ed8;
+}
+
+#maskButton{
+    background:#16a34a;
+    color:white;
+}
+
+#maskButton:hover{
+    background:#15803d;
+}
+
+.footer{
+    text-align:center;
+    margin-top:18px;
+    color:#888;
+    font-size:12px;
+}

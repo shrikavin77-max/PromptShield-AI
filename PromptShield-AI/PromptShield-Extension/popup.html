@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PromptShield AI</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>🛡 PromptShield AI</h1>
+
+            <p>AI Privacy Firewall</p>
+
+        </div>
+
+        <div class="score-card">
+
+            <h2>Privacy Score</h2>
+
+            <div id="privacyScore" class="score">
+
+                100
+
+            </div>
+
+            <p id="riskLevel">Safe</p>
+
+        </div>
+
+        <div class="section">
+
+            <h3>Detected Information</h3>
+
+            <ul id="findings">
+
+                <li>No scan performed.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="buttons">
+
+            <button id="scanButton">
+
+                🔍 Scan Current Prompt
+
+            </button>
+
+            <button id="maskButton">
+
+                🛡 Mask Sensitive Data
+
+            </button>
+
+        </div>
+
+        <div class="footer">
+
+            <small>
+
+                Version 1.0
+
+            </small>
+
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
